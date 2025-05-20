@@ -1,6 +1,7 @@
 https://leetcode.com/problems/maximum-subarray/
 class Solution {
 public:
+    // Here I have used brute force. I will be going through each and every sub-array and find the max sum. 
     int maxsum(vector<int> nums,int s,int e){
         int sum=0;
         int max=-2147483648;

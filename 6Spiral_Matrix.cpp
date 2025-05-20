@@ -1,6 +1,9 @@
 https://leetcode.com/problems/spiral-matrix/
 class Solution {
 public:
+// Here i have put borders across 4 edges of the matrix
+// Then traverse in the correct order 
+// Also manage the borders along with traversing
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> v;
         int rows = matrix.size();
