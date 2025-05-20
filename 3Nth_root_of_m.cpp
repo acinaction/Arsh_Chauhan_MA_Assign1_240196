@@ -1,3 +1,4 @@
+https://www.naukri.com/code360/problems/nth-root-of-m_1062679
 int NthRoot(int n, int m) {
   int i; // I'll go from 1 to m and check whether the nth power equals m.
   int flag=0;

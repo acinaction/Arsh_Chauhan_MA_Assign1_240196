@@ -1,3 +1,4 @@
+https://codeforces.com/contest/2053/problem/C
 #include<bits/stdc++.h>
 using namespace std;
 long long doit(int s,int e, int k){
